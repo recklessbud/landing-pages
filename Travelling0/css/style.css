@@ -259,7 +259,7 @@ overflow-x: hidden;
    
 }
 
-.book-trip .container{
+.book-trip{
   background: url("../assest/destination-images/happy.png") no-repeat;
   background-position: center right;
   background-size: contain;
@@ -292,6 +292,9 @@ overflow-x: hidden;
   height: 47px;
   /* padding-top: 10px; */
 }
+.book-trip .container  .flex .book-trip-big-img{
+  display: none;
+}
 
 .book-trip .book-trip-li h5{
   font-size: 1rem;
@@ -319,8 +322,13 @@ overflow-x: hidden;
     letter-spacing: 1.2;
     color: gray;
   }
+   .dotted{
+    padding-top: 10rem;
+    padding-left: 1rem;
+   }
 
   .dotted > *{
+    /* margin: 15rem; */
     cursor: pointer;
     border: 0;
     aspect-ratio: 2/2;
